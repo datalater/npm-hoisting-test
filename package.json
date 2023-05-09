@@ -9,29 +9,17 @@
   "scripts": {
     "create": "ts-node ./scripts/create-app"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ono212/react-template.git"
-  },
   "keywords": [
     "react",
     "template"
   ],
   "contributors": [
     {
-      "name": "Molly",
-      "email": "onoonoono212@gmail.com"
-    },
-    {
       "name": "Min",
       "email": "the7mincheol@gmail.com"
     }
   ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ono212/react-template/issues"
-  },
-  "homepage": "https://github.com/ono212/react-template#readme",
   "workspaces": [
     "packages/*"
   ],
@@ -45,5 +33,12 @@
     "ejs": "^3.1.9",
     "glob": "^8.1.0",
     "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "react-1": "^0.0.0",
+    "react-2": "^0.0.0",
+    "react-3": "^0.0.0",
+    "react-4": "^0.0.0",
+    "react-5": "^0.0.0"
   }
 }

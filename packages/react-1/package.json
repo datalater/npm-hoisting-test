@@ -1,5 +1,5 @@
 {
-  "name": "<%= packageName %>",
+  "name": "react-1",
   "version": "0.0.0",
   "description": "",
   "main": "main.ts",
@@ -13,6 +13,8 @@
     "type-check": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "react": "^15"
+    "axios": "^1.4.0",
+    "react": "^16",
+    "chalk": "^3"
   }
 }
